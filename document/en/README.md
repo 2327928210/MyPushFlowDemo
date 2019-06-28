@@ -36,7 +36,7 @@ please give us a star.
 #### 1. Download
 It's very easy to use this component, Gradle:
 ```
-compile 'com.laifeng:sopcast-sdk:1.0.4'
+compile 'haoke:sopcast-sdk:1.0.4'
 ```
 #### 2. Permissions
 At first you must get the needed permissions, the needed permissions:
@@ -65,7 +65,7 @@ The 'CameraLivingView' support EXACTLY size mode, and you also can use the "aspe
 define a fixed length-width ratio size view.
 
 ```
-<com.laifeng.sopcastsdk.ui.CameraLivingView
+<haoke.sopcastsdk.ui.CameraLivingView
     android:id="@+id/liveView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

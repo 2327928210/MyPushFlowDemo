@@ -48,7 +48,7 @@
 #### 1. 下载
 使用起来非常方便, Gradle:
 ```
-compile 'com.laifeng:sopcast-sdk:1.0.4'
+compile 'haoke:sopcast-sdk:1.0.4'
 ```
 #### 2. 权限
 在使用前需要添加相应的权限:
@@ -77,7 +77,7 @@ CameraLivingView支持View固定大小（EXACTLY）的模式，当然也可以�
 参考代码如下：
 
 ```
-<com.laifeng.sopcastsdk.ui.CameraLivingView
+<haoke.sopcastsdk.ui.CameraLivingView
     android:id="@+id/liveView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

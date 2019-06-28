@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="com.laifeng.sopcastdemo.MainActivity">
+    tools:context="com.haoke.pushflowdemo.activity.MainActivity">
 
-    <com.laifeng.sopcastdemo.sopcastsdk.ui.CameraLivingView
+    <com.haoke.pushflowdemo.pushflowsdk.ui.CameraLivingView
         android:id="@+id/liveView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:aspect_ratio="0.8"/>
 
-    <com.laifeng.sopcastdemo.ui.TopRightWeightedLayout
+    <com.haoke.pushflowdemo.ui.TopRightWeightedLayout
         android:layout_width="match_parent"
         android:layout_height="75dp"
         android:gravity="center"
@@ -22,25 +22,25 @@
         android:clipChildren="false"
         android:clipToPadding="false"
         android:orientation="horizontal">
-        <com.laifeng.sopcastdemo.ui.MultiToggleImageButton
+        <com.haoke.pushflowdemo.ui.MultiToggleImageButton
             android:id="@+id/record_mic_button"
             style="@style/NiceOption"
             app:imageIds="@array/record_mic_icons" />
-        <com.laifeng.sopcastdemo.ui.MultiToggleImageButton
+        <com.haoke.pushflowdemo.ui.MultiToggleImageButton
             android:id="@+id/camera_flash_button"
             style="@style/NiceOption"
             app:imageIds="@array/camera_flashmode_icons" />
-        <com.laifeng.sopcastdemo.ui.MultiToggleImageButton
+        <com.haoke.pushflowdemo.ui.MultiToggleImageButton
             android:id="@+id/camera_switch_button"
             style="@style/NiceOption"
             app:imageIds="@array/camera_id_icons" />
-        <com.laifeng.sopcastdemo.ui.MultiToggleImageButton
+        <com.haoke.pushflowdemo.ui.MultiToggleImageButton
             android:id="@+id/camera_focus_button"
             style="@style/NiceOption"
             app:imageIds="@array/camera_focus_icons" />
-        <com.laifeng.sopcastdemo.ui.MultiToggleImageButton
+        <com.haoke.pushflowdemo.ui.MultiToggleImageButton
             android:id="@+id/camera_render_button"
             style="@style/NiceOption"
             app:imageIds="@array/camera_render_icons" />
-    </com.laifeng.sopcastdemo.ui.TopRightWeightedLayout>
+    </com.haoke.pushflowdemo.ui.TopRightWeightedLayout>
 </RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.FtpActivity">
+
+
+    <TextView
+        android:id="@+id/textView_battery"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:text="现在的电量是100%" />
+
+    <TextView
+        android:id="@+id/textView_xt"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:text="发送心跳" />
+
+    <TextView
+        android:id="@+id/textView_location"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:text="位置信息" />
+
+    <Button
+        android:id="@+id/button_uploadFile"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ftp 上传文件" />
+
+
+    <Button
+        android:id="@+id/button_downLoadFile"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ftp 下载文件" />
+
+</LinearLayout>

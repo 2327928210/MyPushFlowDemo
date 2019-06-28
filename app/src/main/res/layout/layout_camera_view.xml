@@ -2,13 +2,13 @@
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <com.laifeng.sopcastdemo.sopcastsdk.ui.RenderSurfaceView
+    <com.haoke.pushflowdemo.pushflowsdk.ui.RenderSurfaceView
         android:id="@+id/render_surface_view"
         android:layout_gravity="top"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <com.laifeng.sopcastdemo.sopcastsdk.camera.focus.FocusPieView
+    <com.haoke.pushflowdemo.pushflowsdk.camera.focus.FocusPieView
         android:id="@+id/focus_view"
         android:layout_width="90dp"
         android:layout_height="90dp"
