@@ -48,10 +48,17 @@
         android:layout_height="80dp"
         android:background="#4d000000"
         android:gravity="center"
+        android:orientation="horizontal"
         android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btnTakePicture"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:text="抓拍" />
 
         <ImageButton
             android:id="@+id/btnRecord"
+            android:layout_marginLeft="30dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="@mipmap/ic_record_start" />
